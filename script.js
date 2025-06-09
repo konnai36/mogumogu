@@ -101,11 +101,7 @@ function loadContent(key) {
 <p>※内容は今後変更される可能性があります。</p>
     `,
     p2: `
-  <header>
-    <h1 class="title">もぐたん キャラクター紹介</h1>
-    <button class="menu-toggle" onclick="document.querySelector('nav').classList.toggle('open');">☰</button>
-  </header>
-
+    <h2 class="title">もぐたん キャラクター紹介</h2>
   <main class="container">
     <p class="lead">地域食堂もぐもぐのメインキャラクターの「もぐたん」だよ！</p>
 
