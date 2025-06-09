@@ -127,7 +127,19 @@ function loadContent(key) {
     </div>
   </main>
   `,
-    p3: '<h2>その３</h2><p>（今後追加予定）</p>',
+    p3: `
+    <div class="dynamic-content" id="p3">
+  <h1 class="page-title">チラシ案</h1>
+  <p class="subnote">地域食堂もぐもぐの告知用チラシ案です。最新版や配布済みのものをまとめています。</p>
+
+  <div class="flyer-gallery">
+    <div><img src="img/flyer1.png" alt="チラシ案1"><p>チラシ案①</p></div>
+    <div><img src="img/flyer2.png" alt="チラシ案2"><p>チラシ案②</p></div>
+    <div><img src="img/flyer3.jpg" alt="チラシ案3"><p>チラシ案③</p></div>
+    <div><img src="img/flyer4.jpg" alt="チラシ案4"><p>チラシ案④</p></div>
+    <div><img src="img/flyer5.jpg" alt="チラシ案5"><p>チラシ案⑤</p></div>
+  </div>
+</div>`,
     p4: '<h2>その４</h2><p>（今後追加予定）</p>',
     p5: '<h2>その５</h2><p>（今後追加予定）</p>',
     p6: '<h2>その６</h2><p>（今後追加予定）</p>',

@@ -216,3 +216,28 @@ img {
   margin: 0.3rem 0 0.7rem;
   line-height: 1.4;
 }
+
+.flyer-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.flyer-gallery div {
+  text-align: center;
+  max-width: 200px;
+}
+
+.flyer-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.flyer-gallery p {
+  font-size: 0.85rem;
+  color: #444;
+  margin-top: 0.3rem;
+}
