@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>地域食堂もぐもぐ</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    body {
+      font-family: "Yu Gothic", sans-serif;
+      line-height: 1.8;
+      margin: 2em;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 1.5em;
+    }
+    .card {
+      background: #fff;
+      border: 2px solid #cce5cc;
+      border-radius: 8px;
+      padding: 1.5em;
+      margin-bottom: 1.5em;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.3em;
+      color: #2b6c4d;
+      border-left: 6px solid #6c9;
+      padding-left: 0.5em;
+    }
+    ul {
+      padding-left: 1.5em;
+      margin-top: 0.5em;
+    }
+    .supplement {
+      background: #eef9f1;
+      padding: 1em;
+      border-left: 5px solid #6c9;
+      margin-top: 2em;
+    }
+  </style>
+
+
+</head>
+<body>
+  <header>
+    <h1 class="title">地域食堂もぐもぐ</h1>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  </header>
+  <nav id="nav">
+    <a href="#" onclick="loadContent('p1')">1. 企画書</a>
+    <a href="#" onclick="loadContent('p2')">2. キャラクター</a>
+    <a href="#" onclick="loadContent('p3')">3. チラシ案</a>
+    <a href="#" onclick="loadContent('p4')">4. （未）</a>
+    <a href="#" onclick="loadContent('p5')">5. （未）</a>
+    <a href="#" onclick="loadContent('p6')">6. 試食会 6/22</a>
+    <a href="#" onclick="loadContent('p7')">7. 注意事項</a>
+    <a href="#" onclick="loadContent('p8')">8. 買い物リスト</a>
+    <a href="#" onclick="loadContent('p9')">9. 第一回 7/28</a>
+    <a href="#" onclick="loadContent('p10')">10. 参考資料</a>
+</nav>
+  <div class="container">
+    <div class="dynamic-content" id="content">
+
+このページは、「地域食堂もぐもぐ」実行チームのためのページです。一般には公開されていません。
+
+      <h1>🌿 コンセプト</h1>
+
+      <div class="card">
+        <h2>1. 誰もが安心して過ごせる居場所</h2>
+        <ul>
+          <li>子どもから高齢者まで、誰でも歓迎</li>
+          <li>集会所1F・2Fをフル活用し、やさしく楽しい空間を演出</li>
+          <li>ガヤガヤしすぎず、落ち着ける雰囲気づくり</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>2. 「食べたくなる」丁寧なごはん</h2>
+        <ul>
+          <li>安さよりも、心と手間を込めた「ちょっと楽しみな食事」</li>
+          <li>見た目も香りも大切に、作り込みすぎず、優しさが伝わるごはん</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>3. みんなで作る、みんなの場所</h2>
+        <ul>
+          <li>お手伝い・片付けは自分で、自然と支え合いが生まれる仕組み</li>
+          <li>高校生や地域の人が関わり育ち合う「共育」の場</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>4. 感謝と共感の循環</h2>
+        <ul>
+          <li>愚痴・文句・ネガティブは禁止。感謝と気持ちのよいやりとりを大切に</li>
+          <li>共感できるお店や人とのコラボも積極的に</li>
+          <li>代表を置かず、フラットな組織で運営</li>
+        </ul>
+      </div>
+
+      <div class="supplement">
+        <strong>🔁 補足（運営アイデア）</strong>
+        <ul>
+          <li>子どもは1F会議室でマット遊び、見守り付き</li>
+          <li>2Fの和室は静かな空間として活用（必要に応じてクローズ）</li>
+          <li>ドリンク補充・食器洗いなどはセルフで、ルールよりマナー重視</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ 
+
+  <footer>
+    Presented by MoguMogu Comunity Diner
+  </footer>
+
+  <!-- ★ deferを必ず付ける -->
+  <script src="script.js" defer></script>
+</body>
+</html>

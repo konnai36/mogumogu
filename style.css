@@ -1,0 +1,144 @@
+/* =============================
+   全体設定
+============================= */
+body {
+  font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* =============================
+   ヘッダー
+============================= */
+header {
+  background-color: #2b6cb0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.menu-toggle {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+/* =============================
+   ナビゲーション（サイドメニュー）
+============================= */
+nav {
+  background: #2b6cb0;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  overflow-y: auto;
+  transition: left 0.3s;
+  padding-top: 4rem;
+  z-index: 999;
+}
+
+nav.open {
+  left: 0;
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #1a4c80;
+}
+
+nav a:hover {
+  background: #1a4c80;
+}
+
+/* =============================
+   メインコンテナ
+============================= */
+.container {
+  margin-left: 0;
+  padding: 5px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* =============================
+   動的コンテンツ領域
+============================= */
+.dynamic-content {
+  background-color: #fff;
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: left;  /* ← これがポイント */
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dynamic-content h2 {
+  color: #2b6cb0;
+}
+
+.dynamic-content p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* =============================
+   フッター
+============================= */
+footer {
+  background: #f0f0f0;
+  color: #555;
+  text-align: center;
+  padding: 5px;
+  font-size: 0.85rem;
+}
+
+/* =============================
+   レスポンシブ（600px以上）
+============================= */
+@media (min-width: 600px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  nav {
+    position: static;
+    width: auto;
+    height: auto;
+    background: none;
+    padding-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    left: 0 !important;
+  }
+
+  nav a {
+    color: #2b6cb0;
+    border: none;
+    padding: 0.5rem 1rem;
+  }
+}
+
+img {
+  width: 80%;
+  max-width: 280px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 1em;
+}
