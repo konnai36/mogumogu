@@ -7,9 +7,9 @@ function loadContent(key) {
   const contentData = {
     home: '<h2>ようこそ！</h2><p>濱田家のルーツを探る！　温泉、酒、観光！</p><p>みんなで作る、みんなが主役の旅。<br>けやきが丘から始まるワクワクの物語。</p>',
     p1: `
-<h1>地域食堂もぐもぐ（仮称）企画書</h1>
+<h2>地域食堂もぐもぐ（仮称）企画書</h2>
 
-<h2>1. 名称（仮）</h2>
+<h3>1. 名称（仮）</h3>
 <p>※最終決定は後日。</p>
 <ul>
   <li>けやきの家 食堂</li>
@@ -17,14 +17,14 @@ function loadContent(key) {
   <li>地域食堂 けやきの輪</li>
 </ul>
 
-<h2>2. 背景と目的</h2>
+<h3>2. 背景と目的</h3>
 <ul>
   <li>地域内の子どもたちや高齢者が、安心して集まり、食を通じて交流できる場を提供する。</li>
   <li>特に孤食や家庭での居場所に課題を持つ子どもたちに対し、もう一つの「家庭」のような場を目指す。</li>
   <li>地域内の大人たちの関与を促し、住民同士の関係性を強化する。</li>
 </ul>
 
-<h2>3. 開催概要</h2>
+<h3>3. 開催概要</h3>
 <ul>
   <li>日時：2025年7月27日（日）、28日（月） 15:30〜20:00</li>
   <li>会場：けやきが丘住宅 集会所（上下階）</li>
@@ -34,7 +34,7 @@ function loadContent(key) {
   <li>試食会：2025年6月22日（日）17:30〜 集会所</li>
 </ul>
 
-<h2>4. コンセプト</h2>
+<h3>4. コンセプト</h3>
 <ol>
   <li>安心・安全な場所の提供</li>
   <li>誰でも歓迎（子ども、高齢者、地域住民）</li>
@@ -44,21 +44,21 @@ function loadContent(key) {
   <li>感謝と共感：支え合い・分かち合いの場</li>
 </ol>
 
-<h2>5. 運営体制</h2>
+<h3>5. 運営体制</h3>
 <ul>
-  <li>コンセプト・ネーミング：坂井清香</li>
-  <li>実務全般・設計：近内正樹</li>
+  <li>コンセプト・ネーミング：S氏</li>
+  <li>実務全般・設計：K氏</li>
   <li>分担：スポンサー営業、買い出し、会場設営、進行</li>
 </ul>
 
-<h2>6. 体制・募集方針</h2>
+<h3>6. 体制・募集方針</h3>
 <ul>
   <li>6月末：運営LINEグループ立ち上げ</li>
   <li>6/16〜6/27：説明資料を持って一人ずつ訪問</li>
   <li>一緒に場をつくる仲間として協力を依頼</li>
 </ul>
 
-<h2>7. 注意点</h2>
+<h3>7. 注意点</h3>
 <ul>
   <li>団体色を出さず中立性を重視</li>
   <li>広報では「こども食堂運営グループ」と表記</li>
@@ -66,7 +66,7 @@ function loadContent(key) {
   <li>無農薬へのこだわりより持続可能性を優先</li>
 </ul>
 
-<h2>8. 今後のスケジュール</h2>
+<h3>8. 今後のスケジュール</h3>
 <ul>
   <li>〜6/15：名称・コンセプト決定、チラシ案完成</li>
   <li>6/16〜6/27：協力者リスト作成・説明活動</li>
@@ -76,7 +76,7 @@ function loadContent(key) {
   <li>7月下旬：本番開催</li>
 </ul>
 
-<h2>9. 広報用コンテンツ（動画企画）</h2>
+<h3>9. 広報用コンテンツ（動画企画）</h3>
 <ul>
   <li>キャラクター：もぐたん</li>
   <li>形式：音声入りスライド動画（MP4）</li>
@@ -102,40 +102,40 @@ function loadContent(key) {
     `,
     p2: `
     <h2 class="title">もぐたん キャラクター紹介</h2>
-  <main class="container">
-    <p class="lead">地域食堂もぐもぐのメインキャラクターの「もぐたん」だよ！</p>
+    <main class="container">
+      <p class="lead">地域食堂もぐもぐのメインキャラクターの「もぐたん」だよ！</p>
 
-    <div class="character">
-      <div class="card">
-        <img src="img/mogu1.png" alt="にっこりもぐたん">
-        <p>いつもニコニコ、こどもたちの笑顔が大好き！</p>
-      </div>
+      <div class="character">
+        <div class="card">
+          <img src="img/mogu1.png" alt="にっこりもぐたん">
+          <p>いつもニコニコ、こどもたちの笑顔が大好き！</p>
+        </div>
 
-      <div class="card">
-        <img src="img/mogu2.png" alt="もぐもぐもぐたん">
-        <p>カレーもシチューも、もぐもぐ食べちゃう食いしん坊！</p>
-      </div>
+        <div class="card">
+          <img src="img/mogu2.png" alt="もぐもぐもぐたん">
+          <p>カレーもシチューも、もぐもぐ食べちゃう食いしん坊！</p>
+        </div>
 
-      <div class="card">
-        <img src="img/mogu3.png" alt="びっくりもぐたん">
-        <p>えっ！？こども100円！？大人も500円！？</p>
+        <div class="card">
+          <img src="img/mogu3.png" alt="びっくりもぐたん">
+          <p>えっ！？こども100円！？大人も500円！？</p>
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
   `,
     p3: `
     <div class="dynamic-content" id="p3">
-  <h1 class="page-title">チラシ案</h1>
-  <p class="subnote">地域食堂もぐもぐの告知用チラシ案です。最新版や配布済みのものをまとめています。</p>
+      <h2 class="page-title">チラシ案</h2>
+      <p class="subnote">地域食堂もぐもぐの告知用チラシ案です。最新版や配布済みのものをまとめています。</p>
 
-  <div class="flyer-gallery">
-    <div><img src="img/flyer1.png" alt="チラシ案1"><p>チラシ案①</p></div>
-    <div><img src="img/flyer2.png" alt="チラシ案2"><p>チラシ案②</p></div>
-    <div><img src="img/flyer3.jpg" alt="チラシ案3"><p>チラシ案③</p></div>
-    <div><img src="img/flyer4.jpg" alt="チラシ案4"><p>チラシ案④</p></div>
-    <div><img src="img/flyer5.jpg" alt="チラシ案5"><p>チラシ案⑤</p></div>
-  </div>
-</div>`,
+      <div class="flyer-gallery">
+        <div><img src="img/flyer1.png" alt="チラシ案1"><p>チラシ案①</p></div>
+        <div><img src="img/flyer2.png" alt="チラシ案2"><p>チラシ案②</p></div>
+        <div><img src="img/flyer3.jpg" alt="チラシ案3"><p>チラシ案③</p></div>
+        <div><img src="img/flyer4.jpg" alt="チラシ案4"><p>チラシ案④</p></div>
+        <div><img src="img/flyer5.jpg" alt="チラシ案5"><p>チラシ案⑤</p></div>
+      </div>
+    </div>`,
     p4: '<h2>その４</h2><p>（今後追加予定）</p>',
     p5: '<h2>その５</h2><p>（今後追加予定）</p>',
     p6: '<h2>その６</h2><p>（今後追加予定）</p>',
